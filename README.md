@@ -1,2 +1,2 @@
-# gene_search_in_pubmed
-a simple script that perform a searching of genes of interest in pubmed
+# tesis doctoral
+Repositorio que contiene todos los scripts realizados para llevar a cabo la tesis doctoral
