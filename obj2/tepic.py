@@ -69,6 +69,10 @@ if __name__ == "__main__":
 
 	print("tp","fp","fn","tn")
 	print(tp,fp,fn,tn)
+	tpr = tp/(tp+fn)
 	print("tpr", tp/(tp+fn))
 	print("fpr",fp/(fp+tn))
+	p = tp/(tp+fp)
 	print("P",tp/(tp+fp))
+	print("f1", 2/((1/p)+(1/tpr)))
+	print("acc",(tp+tn)/(tp+tn+fp+fn))
