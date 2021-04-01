@@ -1,0 +1,1 @@
+segunda aproximación para el entrenamiento de random forest. Utilizando los datos de encode y ensembl se fragmento el genoma en bins de 50 bases  (script 00_makeCentralVector),  y luego representando 20 kb rio arriba y rio abajo (01_doFullVectors), el cual orienta los vectores en funcion del tss mas cercano y asi entrenar el algoritmo (02_RF)
